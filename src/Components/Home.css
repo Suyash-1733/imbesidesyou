@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: aqua; */
+}
+
+.home-container .home2{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(90deg,#040426 2%,#090979 20%,#ff00b1 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.home-container .home2 img{
+    width: 500px;
+    display: flex;
+    justify-items: end;
+    margin-right: 50px;
+    border-radius: 20px;
+}
+
+.text {
+    margin: 4% 8%;
+}
+
+.home-heading, .home-moto {
+    color: #fcf661;
+    margin-bottom: 2%
+}
+
+.home-para {
+    color: white;
+    margin-bottom: 2%;
+}
